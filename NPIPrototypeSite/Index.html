@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <!--HEAD-->
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/calender.css">
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New Paths, Inc.</title>
+    <link rel="icon" type="png" href="/imgs/NPI Logoscaled.png">
+  </head>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" name="NPILogo">
+        <img src="/imgs/NPI Logoscaled.png" alt="NPILogo" name="NPILogo" aria="New Paths Logo" id="NPILogo" width="130px" height="75px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services and Programs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Highlights</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About Us</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">NPI Leadership</a></li>
+              <li><a class="dropdown-item" href="#">Volunteering & Support</a></li>
+              <li><a class="dropdown-item" href="#">Recovery Coach Academy</a></li>
+              <li><a class="dropdown-item" href="#">Alumni</a></li>
+              <li><a class="dropdown-item" href="#">Reports and Statistics</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Careers</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ's</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--BODY-->
+  <body>
+    <Main class="main-top" >
+      <!-- The rolling numbers start at 0 and ramp up to their ending value through a function defined in javascript.js -->
+      <aside class="rolling-numbers">
+        <section>
+          <p>Success Stories Told Last Year</p>
+          <text>+</text>
+          <text id="stories">0</text>
+          <hr>
+        </section>
+        <section>
+          <p>People Helped Every Year</p>
+          <text>+</text>
+          <text id="people">0</text>
+          <hr>
+        </section>
+        <section>
+          <p>Interventions Started Every Day</p>
+          <text>+</text>
+          <text id="interventions">0</text>
+        </section>
+      </aside>
+      <div class="maintext">
+        <section class="gradiant">
+        <h1>Our Purpose</h1>
+        <p><strong>New Paths, Inc. provides comprehensive substance use disorder treatment for drug and alcohol addictions. Offering multiple levels of rehabilitation, NPI provides an effective level of treatment programming to meet specific clinical needs. Individuals are screened and referred through Region 10/GHS Access Center, have current Medicaid insurance or are eligible through Block Grant funding. Individuals also have the ability to self-pay for treatment services. </strong></p>
+        </section>
+        <h1>Our Mission</h1>
+        <p><strong>Our mission is one of providing individuals an opportunity to change their lives. We are committed to utilizing innovative, evidence-based pathways to assist individuals in achieving and sustaining a healthy quality of life. </strong></p>
+        <h1>Our Vision</h1>
+        <p><strong>The vision of New Paths, Inc. is to be an effective and dynamic force in the treatment of behavioral health while recognizing the individuality of the person served. </strong></p>
+      </div>
+      <aside class="socials-events-media">
+        <section id="socials">
+          <p>Social Media</p>
+          <p style="font-size: 14px;">Coming Soon!</p>
+        </section>
+        <section id="events">
+          <p>Events</p>
+          <!-- This calender ID is what displays the calender on the homepage all the CSS/JS is in their own stylesheets-->
+          <div id="calendar"></div>
+        </section>
+      </aside>
+    </Main>
+    <Main class="main-content">
+
+
+      <!--Preload background images to help prevent white flickering of background-->
+      <data value="imgarray">
+        <img src="/imgs/flower.jpg" style="display:none;">
+        <img src="/imgs/sky.jpg" style="display:none;">
+        <img src="/imgs/sunset.jpg" style="display:none;">
+        <img src="/imgs/stackedrocks.jpg" style="display:none;">
+        <img src="/imgs/bench.jpg" style="display:none;">
+        <img src="/imgs/darktest.jpg" style="display:none;">
+        <img src="/imgs/test.jpg" style="display:none;">
+      </data>
+    </Main>
+    <!--FOOTER-->
+    <footer>
+      <section>
+        <address>765 E Hamilton Ave, Flint, MI 48505</address>
+        <p>(810) 233-5340</p>
+        &copy; <script>document.write(new Date().getFullYear());</script>, New Paths Inc.
+      </section>
+      <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.257779212391!2d-83.69303488429156!3d43.03600750013737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88238233db9ad163%3A0xe81f6b26f79e191c!2sNew%20Paths%20Inc!5e0!3m2!1sen!2sus!4v1650914592397!5m2!1sen!2sus" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <img src="/imgs/marr.png" name="carf-logo" alt="carf-logo" id="carf-logo">
+      <img src="http://carf.org/assets/0/245/274/291/292/6fe2ce8e-5d8b-49ff-9527-3abfbee33973.png" name="carf-logo" alt="carf-logo" id="carf-logo">
+    </footer>
+</body>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+  <script src="/javascript/calender.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="/javascript/javascript.js"></script>
+</html>
