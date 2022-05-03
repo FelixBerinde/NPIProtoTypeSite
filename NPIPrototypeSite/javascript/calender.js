@@ -330,4 +330,3 @@
     var calendar = new Calendar('#calendar', data);
   
   }();
-  
