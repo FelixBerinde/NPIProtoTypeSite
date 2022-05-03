@@ -27,7 +27,8 @@ function changeBg(){
     'url("/imgs/stackedrocks.jpg")',
     'url("/imgs/bench.jpg")',
     'url("/imgs/darktest.jpg")',
-    'url("/imgs/test.jpg")'
+    'url("/imgs/test.jpg")',
+    'url("/imgs/npi_summer.jpg")'
   ]
   const background = document.querySelector('.main-top');
   const bg = images[Math.floor(Math.random() * images.length)];
