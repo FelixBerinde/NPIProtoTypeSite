@@ -13,9 +13,9 @@ function animateValue(obj, start, end, duration) {
   const people = document.getElementById("people");
   const stories = document.getElementById("stories");
   const interventions = document.getElementById("interventions");
-  animateValue(stories, 0, 1300, 5000);
-  animateValue(people, 0, 4200, 7500);
-  animateValue(interventions, 0, 12, 5000);
+  animateValue(stories, 0, 1600, 5000);
+  animateValue(people, 0, 4280, 7500);
+  animateValue(interventions, 0, 13, 5000);
   
 
 
