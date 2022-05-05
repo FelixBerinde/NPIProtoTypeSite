@@ -16,10 +16,10 @@ h1 {
 /* ----- Navagation ----- */ 
 
 .navbar {
-box-shadow: 0px 2px 3px gray;
-background-color: #c9e9f6;
-border-bottom-left-radius: 4px;
-border-bottom-right-radius: 4px;
+  box-shadow: 0px 2px 3px gray;
+  background-color: #c9e9f6;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .addressbox {
@@ -71,7 +71,7 @@ border-bottom-right-radius: 4px;
 }
 
 .rolling-numbers > section > p {
-font-size: 20px;
+  font-size: 20px;
 }
 
 .socials-events-media > section {
@@ -81,7 +81,7 @@ font-size: 20px;
 
 .socials-events-media > section > p {
   font-size: 20px;
-  }
+}
 
 .socials-events-media {
   margin-right: 5px;
@@ -107,6 +107,11 @@ font-size: 20px;
   text-align: center;
   color: black;
   background-color: rgb(255, 255, 255, .60);
+}
+
+.content {
+  margin: 5px;
+  padding: 5px;
 }
 
 .main-top {
@@ -137,7 +142,7 @@ footer {
 }
 
 .copyright {
-margin: 25px;
+  margin: 25px;
 }
 
 .maps {
@@ -165,6 +170,7 @@ margin: 25px;
   height: 150px;
   margin: 5px 40px;
 }
+
 /* ----- Media Screens CSS ----- */
 
 @media only screen and (max-width: 1045px) {
@@ -175,6 +181,7 @@ margin: 25px;
     display: none;
   }
 }
+
 @media only screen and (max-width: 993px) {
   .maintext {
     height: 560px;
@@ -188,6 +195,9 @@ margin: 25px;
   .otherlogos {
     padding-top: 25%;
   }
+  footer {
+    height: 650px;
+  }
 }
 
 @media only screen and (max-width: 520px) {
@@ -195,11 +205,11 @@ margin: 25px;
     height: 1000px; 
   }
   footer {
-  height: 770px;
+    height: 800px;
   }
 }
 
-/* ===== Scrollbar CSS ===== */
+  /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
     scrollbar-color: #00ccff;
@@ -217,4 +227,68 @@ margin: 25px;
   *::-webkit-scrollbar-thumb {
     background-color: #244BA7;
     border-radius: 5px;
+  }
+
+/* ------- Banners for Other pages ------- */
+  .center-text {
+    text-align: center;
+  }
+  
+  .band {
+    background-color: #6EC1E4;
+    padding: 40px 0px;
+    font-size: 60px;
+    font-family: "Arial", Sans-serif;
+    font-weight: bold;
+  }
+  
+  .board-names {
+    padding: 0px;
+    align-items: center;
+    width: 500px;
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+  
+  .left-text {
+    text-align: left;
+  }
+  
+  .center-this-div {
+    align-items: center;
+  }
+  
+  /* programs */
+  
+  .programs-btn:hover{
+    background-color: white;
+    color: blue;
+    border: none;
+  }
+  
+  .programs-btn:focus{
+    background-color: white;
+    color: blue;
+    border: none;
+  }
+  
+  .programs-btn {
+    background-color: white;
+    color: blue;
+    border: none;
+  }
+  
+  .programs-div {
+    padding: 0px 300px;
+    display: grid;
+  }
+  
+  /* volunteer-support */
+  
+  .right-text {
+    text-align: right;
+  }
+  
+  .inline {
+    display: inline-block;
   }
