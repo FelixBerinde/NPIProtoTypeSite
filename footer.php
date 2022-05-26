@@ -7,6 +7,6 @@
         <img src="/imgs/narr.jpg" name="narr-logo" alt="narr-logo" id="narr-logo">
       </section>
     <section class="copyright">
-      &copy; <script>document.write(new Date().getFullYear());</script>, New Paths Inc.
+          &copy; <script>document.write(new Date().getFullYear());</script><p>, New Paths Inc.</p>
     </section>
 </footer>
