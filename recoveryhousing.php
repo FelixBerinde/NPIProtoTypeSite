@@ -23,11 +23,15 @@ include "header.php";
     <div class="center-box">
         <h1>Recovery Housing</h1>
         <p style="text-align: justify">
-        
+        Short and long term safe and supportive housing for individuals in recovery. Referred by Region 10. Individuals must participate in treatment services and be involved in various recovery pathways. Individuals can seek
+        employment, attend school and must refrain from using mood altering substances.
         </p>
+        <section>
+          <img class="scale_img" src="./imgs/future.jpg" alt="The future depends on what you do today.">
+        </section>
     </div>
     <div class="right-box">
-        <img class="scale_img" src="./imgs/hands.jpg" alt="Hands clasped over hnads comfortingly">
+        <img class="scale_img" src="./imgs/hands.jpg" alt="Hands clasped over hands comfortingly">
     </div>
 </div>
 

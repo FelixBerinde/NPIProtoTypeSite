@@ -26,7 +26,7 @@
           <?php if($_SERVER['SCRIPT_NAME']=="/recoveryhousing.php") echo 'active' ?>
           <?php if($_SERVER['SCRIPT_NAME']=="/soberingfacility.php") echo 'active' ?>
           <?php if($_SERVER['SCRIPT_NAME']=="/drugandalcoholtesting.php") echo 'active' ?>
-          <?php if($_SERVER['SCRIPT_NAME']=="/angermanagement.php") echo 'active' ?>" href="/programs.php">Services and Programs</a>
+          <?php if($_SERVER['SCRIPT_NAME']=="/angermanagement.php") echo 'active' ?>">Services and Programs</a>
           <ul class="dropdown-menu">
               <li class="servicesdropdown">Programs</li>
               <li><a class="dropdown-item" href="/residential.php">Residential</a></li>
@@ -55,7 +55,7 @@
             <li><a class="dropdown-item" target="_blank" href="/reports.php">Reports and Statistics</a></li>
           </ul>
         <li class="nav-item">
-          <a <?php if($_SERVER['SCRIPT_NAME']=="//faq.php") { ?> class="nav-link active" <?php } else { ?> class="nav-link" <?php } ?> href="/faq.php">FAQ's</a>
+          <a <?php if($_SERVER['SCRIPT_NAME']=="/faq.php") { ?> class="nav-link active" <?php } else { ?> class="nav-link" <?php } ?> href="/faq.php">FAQ's</a>
         </li>
         <li class="nav-item">
           <a <?php if($_SERVER['SCRIPT_NAME']=="/contactus.php") { ?> class="nav-link active" <?php } else { ?> class="nav-link" <?php } ?> href="/contactus.php">Contact Us</a>

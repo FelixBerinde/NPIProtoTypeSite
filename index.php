@@ -52,6 +52,8 @@ include "header.php";
     <section id="socials">
         <p>Social Media</p>
         <p style="font-size: 14px;">Coming Soon!</p>
+        <h3 style="font-size: 20px;">Announcement:</h3>
+        <p style="font-size: 14px;">Our Website is currently under construction, please excuse our mess!</p>
     </section>
     <section id="events">
         <p>Events</p>

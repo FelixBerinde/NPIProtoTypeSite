@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -18,7 +18,7 @@ include "header.php";
 <body>
 <div class="wrapper">
     <div class="left-box">
-        <img class="scale_img" src="./imgs/reach.jpg" alt="Two hands reaching out to one another">
+        <img class="scale_img" src="./imgs/goodvibes.jpg" alt="Two hands reaching out to one another">
     </div>
     <div class="center-box">
         <h1>Anger Management</h1>
@@ -27,7 +27,7 @@ include "header.php";
         </p>
     </div>
     <div class="right-box">
-        <img class="scale_img" src="./imgs/hands.jpg" alt="Hands clasped over hnads comfortingly">
+        <img class="scale_img" src="./imgs/angermanagement.jpg" alt="Long exposure image of a man violently thrashing his head around.">
     </div>
 </div>
 

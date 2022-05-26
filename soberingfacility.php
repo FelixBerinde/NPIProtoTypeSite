@@ -18,16 +18,22 @@ include "header.php";
 <body>
 <div class="wrapper">
     <div class="left-box">
-        <img class="scale_img" src="./imgs/reach.jpg" alt="Two hands reaching out to one another">
+        <img class="scale_img" src="./imgs/bed.jpg" alt="it's a bed">
     </div>
     <div class="center-box">
         <h1>Sobering Facility</h1>
         <p style="text-align: justify">
-        
+        The Sobering facility provides a safe environment designed to meet the needs of intoxicated individuals for up
+        to 23 hours allowing the individual to become sober and interrupt cycles of use while determining individual
+        needs and desires for next steps with the goal of becoming sober and working with staff to identify their needs
+        and desire to enter treatment. If the client wishes to enter treatment, staff will coordinate for screening through
+        ACCESS for identification of the next level of care. The Population served are men and women who are at
+        least 18 years of age presenting with a substance use disorder diagnosis. Walk Ins, hospital, law enforcement
+        and community referrals are accepted 24/7. 
         </p>
     </div>
     <div class="right-box">
-        <img class="scale_img" src="./imgs/hands.jpg" alt="Hands clasped over hnads comfortingly">
+        <img class="scale_img" src="./imgs/phone.jpg" alt="A vintage payphone">
     </div>
 </div>
 

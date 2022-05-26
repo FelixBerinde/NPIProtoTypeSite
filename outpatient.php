@@ -19,16 +19,17 @@ include "header.php";
 <body>
 <div class="wrapper">
     <div class="left-box">
-        <img class="scale_img" src="./imgs/reach.jpg" alt="Two hands reaching out to one another">
+        <img class="scale_img" src="./imgs/windingroad.jpg" alt="Two lane highway with several winding turns.">
     </div>
     <div class="center-box">
         <h1>Outpatient</h1>
         <p style="text-align: justify">
-        
+        Outpatient services consist of assessment, treatment planning, group and individual therapy, peer-led recovery
+support, based on the need of the client. 
         </p>
     </div>
     <div class="right-box">
-        <img class="scale_img" src="./imgs/hands.jpg" alt="Hands clasped over hnads comfortingly">
+        <img class="scale_img" src="./imgs/windingsign.jpg" alt="Winding road ahead sign.">
     </div>
 </div>
 

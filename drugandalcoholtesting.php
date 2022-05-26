@@ -18,7 +18,7 @@ include "header.php";
 <body>
 <div class="wrapper">
     <div class="left-box">
-        <img class="scale_img" src="./imgs/reach.jpg" alt="Two hands reaching out to one another">
+        <img class="scale_img" src="./imgs/urinetesting.jpg" alt="Glass beaker with three glass viles inside containing unknown liquids">
     </div>
     <div class="center-box">
         <h1>Drug And Alcohol Testing</h1>
@@ -27,7 +27,7 @@ include "header.php";
         </p>
     </div>
     <div class="right-box">
-        <img class="scale_img" src="./imgs/hands.jpg" alt="Hands clasped over hnads comfortingly">
+        <img class="scale_img" src="./imgs/chairs.jpg" alt="Two hands reaching out with the background of the sky">
     </div>
 </div>
 
