@@ -1,69 +1,111 @@
-<nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/index.php" name="NPILogo">
-      <img src="https://i.imgur.com/xn9eFrd.png" title="source: imgur.com" alt="NPI Logo" aria="New Paths Logo" id="NPILogo" width="130px" height="75px"></a>
-      <section class="addressbox">
-        <address>765 E Hamilton Ave, Flint, MI 48505</address>
-        <p>(810) 233-5340</p>
-      </section>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link <?php if($_SERVER['SCRIPT_NAME']=="/index.php") echo 'active' ?>" aria-current="page" href="/index.php">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="dropdown-toggle nav-link 
-          <?php if($_SERVER['SCRIPT_NAME']=="/programs.php") echo 'active' ?>
-          <?php if($_SERVER['SCRIPT_NAME']=="/residential.php") echo 'active' ?>
-          <?php if($_SERVER['SCRIPT_NAME']=="/programs.php") echo 'active' ?>
-          <?php if($_SERVER['SCRIPT_NAME']=="/daytreatment&intensiveoutpatient.php") echo 'active' ?>
-          <?php if($_SERVER['SCRIPT_NAME']=="/outpatient.php") echo 'active' ?>
-          <?php if($_SERVER['SCRIPT_NAME']=="/medicatedassistedtreatment.php") echo 'active' ?>
-          <?php if($_SERVER['SCRIPT_NAME']=="/justiceinvolvedindividuals.php") echo 'active' ?>
-          <?php if($_SERVER['SCRIPT_NAME']=="/recoveryhousing.php") echo 'active' ?>
-          <?php if($_SERVER['SCRIPT_NAME']=="/soberingfacility.php") echo 'active' ?>
-          <?php if($_SERVER['SCRIPT_NAME']=="/drugandalcoholtesting.php") echo 'active' ?>
-          <?php if($_SERVER['SCRIPT_NAME']=="/angermanagement.php") echo 'active' ?>">Services and Programs</a>
-          <ul class="dropdown-menu">
-              <li class="servicesdropdown">Programs</li>
-              <li><a class="dropdown-item" href="/residential.php">Residential</a></li>
-              <li><a class="dropdown-item" href="/daytreatment&intensiveoutpatient.php">Day Treatment & Intensive Outpatient</a></li>
-              <li><a class="dropdown-item" href="/outpatient.php">Outpatient</a></li>
-              <li><a class="dropdown-item" href="/medicatedassistedtreatment.php">Medication Assisted Treatment</a></li>
-              <li><a class="dropdown-item" href="/justiceinvolvedindividuals.php">Justice Involved Individuals</a></li>
-              <hr>
-              <li class="servicesdropdown">Support Services</li>
-              <li><a class="dropdown-item" href="/recoveryhousing.php">Recovery Housing</a></li>
-              <li><a class="dropdown-item" href="/soberingfacility.php">Sobering Facility</a></li>
-              <li><a class="dropdown-item" href="/drugandalcoholtesting.php">Drug and Alcohol Testing</a></li>
-              <li><a class="dropdown-item" href="/angermanagement.php">Anger Management</a></li>
-          </ul>
-        </li>
-        <li  class="nav-item">
-          <a <?php if($_SERVER['SCRIPT_NAME']=="/highlights.php") { ?> class="nav-link active" <?php } else { ?> class="nav-link" <?php } ?> href="/highlights.php">Highlights</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a <?php if($_SERVER['SCRIPT_NAME']=="/aboutus.php") { ?> class="dropdown-toggle nav-link active" <?php } else { ?> class="dropdown-toggle nav-link" <?php } ?> href="/aboutus.php">About Us</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/npileadership.php">NPI Leadership</a></li>
-            <li><a class="dropdown-item" href="/volunteer-support.php">Volunteering & Support</a></li>
-            <li><a class="dropdown-item" href="/recovery-coach-academy.php">Recovery Coach Academy</a></li>
-            <li><a class="dropdown-item" href="/alumni.php">Alumni</a></li>
-            <li><a class="dropdown-item" target="_blank" href="/reports.php">Reports and Statistics</a></li>
-          </ul>
-        <li class="nav-item">
-          <a <?php if($_SERVER['SCRIPT_NAME']=="/faq.php") { ?> class="nav-link active" <?php } else { ?> class="nav-link" <?php } ?> href="/faq.php">FAQ's</a>
-        </li>
-        <li class="nav-item">
-          <a <?php if($_SERVER['SCRIPT_NAME']=="/contactus.php") { ?> class="nav-link active" <?php } else { ?> class="nav-link" <?php } ?> href="/contactus.php">Contact Us</a>
-        </li>
-        <li class="nav-item">
-          <a <?php if($_SERVER['SCRIPT_NAME']=="/careers.php") { ?> class="nav-link active" <?php } else { ?> class="nav-link" <?php } ?> target="_blank" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=66bbc086-7453-4032-8a3a-e38cfece5782&ccId=19000101_000001&lang=en_US">Careers</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <a href="/index.php"><h4>New Paths Inc.</h4>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Welcome to New Paths!</p>
+                <a></a>
+                <li class="<?php if($_SERVER['SCRIPT_NAME']=="/index.php") echo 'active' ?>">
+                    <a href="/index.php">Home</a>
+                </li>
+                <li class="<?php if($_SERVER['SCRIPT_NAME']=="/residential.php") echo 'active' ?>
+                    <?php if($_SERVER['SCRIPT_NAME']=="/daytreatment&intensiveoutpatient.php") echo 'active' ?>
+                    <?php if($_SERVER['SCRIPT_NAME']=="/outpatient.php") echo 'active' ?>
+                    <?php if($_SERVER['SCRIPT_NAME']=="/medicatedassistedtreatment.php") echo 'active' ?>
+                    <?php if($_SERVER['SCRIPT_NAME']=="/justiceinvolvedindividuals.php") echo 'active' ?>
+                    <?php if($_SERVER['SCRIPT_NAME']=="/recoveryhousing.php") echo 'active' ?>
+                    <?php if($_SERVER['SCRIPT_NAME']=="/soberingfacility.php") echo 'active' ?>
+                    <?php if($_SERVER['SCRIPT_NAME']=="/drugandalcoholtesting.php") echo 'active' ?>
+                    <?php if($_SERVER['SCRIPT_NAME']=="/angermanagement.php") echo 'active' ?>">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Services & Programs</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <hr>
+                        <h5>Programs</h5>
+                        <li>
+                            <a href="/residential.php">Residential</a>
+                        </li>
+                        <li>
+                            <a href="/daytreatment&intensiveoutpatient.php">Day Treatment & Intensive Outpatient</a>
+                        </li>
+                        <li>
+                            <a href="/medicatedassistedtreatment.php">Medication Assisted Treatment</a>
+                        </li>
+                        <li>
+                            <a href="/courtreferredservices.php">Court Referred Services</a>
+                        </li>
+                        <hr>
+                        <h5>Support Services</h5>
+                        <li>
+                            <a href="/recoveryhousing.php">Recovery Housing</a>
+                        </li>
+                        <li>
+                            <a href="/soberingfacility.php">Sobering Facility</a>
+                        </li>
+                        <li>
+                            <a href="/drugandalcoholtesting.php">Drug and Alcohol Testing</a>
+                        </li>
+                        <li>
+                            <a href="/angermanagement.php">Anger Management</a>
+                        </li>
+                        <li>
+                            <a href="/oorpqrt.php">OORP/QRT</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+                <li class="<?php if($_SERVER['SCRIPT_NAME']=="/highlights.php") echo 'active' ?>">
+                    <a href="/highlights.php">Highlights</a>
+                </li>
+                <li class="<?php if($_SERVER['SCRIPT_NAME']=="/npileadership.php") echo 'active' ?>">
+                    <a href="#aboutusSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">About Us</a>
+                    <ul class="collapse list-unstyled" id="aboutusSubmenu">
+                        <li>
+                            <a href="/npileadership.php">NPI Leadership</a>
+                        </li>
+                        <li>
+                            <a href="/volunteer-support0.php">Volunteering & Support</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+                <li class="<?php if($_SERVER['SCRIPT_NAME']=="/faq.php") echo 'active' ?>">
+                    <a href="/faq.php" >FAQ's</a>
+                </li>
+                <li>
+                    <a href="#careersSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Careers</a>
+                    <ul class="collapse list-unstyled" id="careersSubmenu">
+                        <li>
+                            <a target="_blank" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=66bbc086-7453-4032-8a3a-e38cfece5782&ccId=19000101_000001&lang=en_US">Apply On ADP</a>
+                        </li>
+                        <li>
+                            <a href="#">Recovery Coach Academy</a>
+                        </li>
+                        <li>
+                            <a href="/donations.php">Donations</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="phonenumberslist">
+                <li><span>Contact Us: <a href="tel:(810)-233-5340">(810)-233-5340</a></span></li>
+                <li><span>QRT Warmline: <a href="tel:(810)-624-1117">(810)-624-1117</a></span></li>
+                <li><span>QRT Textline: <a href="tel:(810)-835-4288">(810)-835-4288</a></span></li>
+                <li><span>Suicide Hotline: <a href="https://988lifeline.org/" target="_blank">https://988lifeline.org/</a></span></li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    </div>
+                    <img src="/imgs/Final_Approved_Logo.png" id="NPILogo">
+            </nav>
