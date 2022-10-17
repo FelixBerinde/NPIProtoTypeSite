@@ -18,7 +18,7 @@ include "header.php";
 <body>
 <div class="wrapper">
     <div class="left-box">
-        <img class="scale_img" src="./imgs/liberty.jpg" alt="Statue of a blindfolded women holding the scales of justice.">
+        <img class="scale_img" src="./imgs/liberty.webp" alt="Statue of a blindfolded women holding the scales of justice.">
     </div>
     <div class="center-box">
         <h1>Justice Involved Individuals</h1>
@@ -32,7 +32,7 @@ include "header.php";
         </p>
     </div>
     <div class="right-box">
-        <img class="scale_img" src="./imgs/justice.jpg" alt="Light up sign that says liberty.">
+        <img class="scale_img" src="./imgs/justice.webp" alt="Light up sign that says liberty.">
     </div>
 </div>
 

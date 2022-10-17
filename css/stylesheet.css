@@ -223,7 +223,7 @@ a.article:hover {
 /* ----- Main Content ----- */ 
 
 .rolling-numbers {
-  margin: 5px;
+  margin: 5% 30px;
   background-color: #768492;
   width: 360px;
   height: 650px;
@@ -286,7 +286,7 @@ a.article:hover {
 }
 
 .main-top {
-  background-image: url("/imgs/test.jpg");
+  background-image: url("/imgs/circle_of_hands.webp");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -364,19 +364,26 @@ footer > p {
   }
 }
 
+@media only screen and (max-width: 1324px) {
+  footer {
+    height: 500px;
+  }
+}
 @media only screen and (max-width: 993px) {
   footer {
-    height: 600px;
+    height: 700px;
   }
 }
 
-
 @media only screen and (max-width: 730px) {
   footer {
-    height: 800px;
+    height: 900px;
   }
-  .otherlogos {
-    padding-top: 25%;
+}
+
+@media only screen and (max-width: 400px) {
+  .column {
+    min-width: 200px;
   }
 }
 
@@ -483,4 +490,6 @@ footer > p {
   
   .column {
     flex: 33.33%;
+    min-width: 400px;
+    max-width: 500px;
   }

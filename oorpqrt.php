@@ -24,7 +24,7 @@ include "header.php";
 
 <div class="columns">
    <div class="column">
-   <img class="scale_img" src="./imgs/recoveryworthit.jpg" alt="A field with a bridge in the distance with a quote that says Im not telling you it is going to be easy I'm telling you it's going to be worth it.">
+   <img class="scale_img" src="./imgs/recoveryworthit.webp" alt="A field with a bridge in the distance with a quote that says Im not telling you it is going to be easy I'm telling you it's going to be worth it.">
    </div>
    <div class="column" style="display: flex; justify-content: center; align-items: center;"> 
       <div class="centertext">
@@ -36,10 +36,10 @@ include "header.php";
       </div>
     </div>
   <div class="column">
-  <img class="scale_img" src="./imgs/worthit.jpg" alt="">
+  <img class="scale_img" src="./imgs/notalone.webp" alt="">
   </div>
 </div>
-<div class="centertext">
+<div class="centertext" style="text-align: center;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/OdX1sHVQup0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
