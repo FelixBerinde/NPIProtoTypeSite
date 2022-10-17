@@ -24,7 +24,7 @@ include "header.php";
 <body>
 <div class="columns">
     <div class="column">
-        <img class="scale_img" src="./imgs/urinetesting.jpg" alt="Glass beaker with three glass viles inside containing unknown liquids">
+        <img class="scale_img" src="./imgs/urinetesting.webp" alt="Glass beaker with three glass viles inside containing unknown liquids">
     </div>
     <div class="column" style="display: flex; justify-content: center; align-items: center;"> 
     <div class="centertext">
@@ -34,7 +34,7 @@ include "header.php";
       </div>
       </div>
     <div class="column">
-        <img class="scale_img" src="./imgs/chairs.jpg" alt="Two hands reaching out with the background of the sky">
+        <img class="scale_img" src="./imgs/chairs.webp" alt="Two hands reaching out with the background of the sky">
     </div>
 </div>
 

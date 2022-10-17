@@ -26,7 +26,7 @@ include "header.php";
 
 <div class="columns">
    <div class="column">
-      <img class="scale_img" src="./imgs/reach.jpg" alt="Two hands reaching out to one another">
+      <img class="scale_img" src="./imgs/reach.webp" alt="Two hands reaching out to one another">
    </div>
    <div class="column">
       <h1>Residential</h1>
@@ -44,7 +44,7 @@ include "header.php";
         </p>
   </div>
   <div class="column">
-      <img class="scale_img" src="./imgs/hands.jpg" alt="Hands clasped over hands comfortingly">
+      <img class="scale_img" src="./imgs/hands.webp" alt="Hands clasped over hands comfortingly">
   </div>
 </div>
 
