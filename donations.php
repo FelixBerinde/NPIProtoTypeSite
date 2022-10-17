@@ -28,21 +28,9 @@ include "header.php";
   </div>
   <div class="center-text">
     <h2> Donate with Paypal</h2>
-    <div id="donate-button-container">
-    <div id="donate-button"></div>
-    <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
-    <script>
-      PayPal.Donation.Button({
-      env:'production',
-      hosted_button_id:'SRVPPU3TZLF8W',
-      image: {
-      src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
-      alt:'Donate with PayPal button',
-      title:'PayPal - The safer, easier way to pay online!',
-    }
-    }).render('#donate-button');
-    </script>
-</div>
+    <a class="" href="https://www.paypal.com/donate?token=ZZDNu8aVndq5zYpA3vr_qcRCetevJLdmwMkMM_BC-GzJSCOtHO_kwNDvyM5VEgRnZt-bjvaSPuhqZmKQ" target="_blank">
+    <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" href="https://www.paypal.com/donate?token=ZZDNu8aVndq5zYpA3vr_qcRCetevJLdmwMkMM_BC-GzJSCOtHO_kwNDvyM5VEgRnZt-bjvaSPuhqZmKQ" target="_blank" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button"></a>
+  </div>
   <div class="center-text">
     <h2>Support us with Amazon Smile</h2>
     <p>Amazon donates 0.5% of the price of your eligible <a href="https://smile.amazon.com/ch/38-2302935">AmazonSmile</a> purchases to New Paths, Inc.</p>

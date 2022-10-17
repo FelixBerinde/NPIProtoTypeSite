@@ -25,7 +25,7 @@ include "header.php";
 <body>
 <div class="wrapper">
     <div class="left-box">
-        <img class="scale_img" src="./imgs/windingroad.webp" alt="Two lane highway with several winding turns.">
+        <img class="scale_img" src="./imgs/windingroad.jpg" alt="Two lane highway with several winding turns.">
     </div>
     <div class="center-box">
         <h1>Outpatient</h1>
@@ -35,7 +35,7 @@ support, based on the need of the client.
         </p>
     </div>
     <div class="right-box">
-        <img class="scale_img" src="./imgs/windingsign.webp" alt="Winding road ahead sign.">
+        <img class="scale_img" src="./imgs/windingsign.jpg" alt="Winding road ahead sign.">
     </div>
 </div>
 

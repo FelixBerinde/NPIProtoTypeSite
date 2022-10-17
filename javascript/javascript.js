@@ -21,14 +21,14 @@ function animateValue(obj, start, end, duration) {
 
 function changeBg(){
   const images = [
-    'url("/imgs/flower.webp")',
-    'url("/imgs/sunset.webp")',
-    'url("/imgs/sky.webp")',
-    'url("/imgs/stackedrocks.webp")',
-    'url("/imgs/bench.webp")',
-    'url("/imgs/darktest.webp")',
-    'url("/imgs/circle_of_hands.webp")',
-    'url("/imgs/npi_summer.webp")'
+    'url("/imgs/flower.jpg")',
+    'url("/imgs/sunset.jpg")',
+    'url("/imgs/sky.jpg")',
+    'url("/imgs/stackedrocks.jpg")',
+    'url("/imgs/bench.jpg")',
+    'url("/imgs/darktest.jpg")',
+    'url("/imgs/test.jpg")',
+    'url("/imgs/npi_summer.jpg")'
   ]
   const background = document.querySelector('.main-top');
   const bg = images[Math.floor(Math.random() * images.length)];

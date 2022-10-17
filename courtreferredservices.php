@@ -24,7 +24,7 @@ include "header.php";
 <body>
 <div class="columns">
     <div class="column">
-        <img class="scale_img" src="./imgs/liberty.webp" alt="Statue of a blindfolded women holding the scales of justice.">
+        <img class="scale_img" src="./imgs/liberty.jpg" alt="Statue of a blindfolded women holding the scales of justice.">
     </div>
     <div class="column" style="display: flex; justify-content: center; align-items: center;"> 
     <div class="centertext">
@@ -36,7 +36,7 @@ include "header.php";
       </div>
     </div>
     <div class="column">
-        <img class="scale_img" src="./imgs/justice.webp" alt="Light up sign that says liberty.">
+        <img class="scale_img" src="./imgs/justice.jpg" alt="Light up sign that says liberty.">
     </div>
 </div>
 

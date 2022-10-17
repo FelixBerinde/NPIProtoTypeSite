@@ -61,16 +61,16 @@ include "header.php";
     <Main class="main-content">
     
     
-        <!--Preload background images to help reduce white flickering of background-->
+        <!--Preload background images to help prevent white flickering of background-->
         <data value="imgarray">
-        <img src="/imgs/flower.webp" style="display:none;">
-        <img src="/imgs/sky.webp" style="display:none;">
-        <img src="/imgs/sunset.webp" style="display:none;">
-        <img src="/imgs/stackedrocks.webp" style="display:none;">
-        <img src="/imgs/bench.webp" style="display:none;">
-        <img src="/imgs/darktest.webp" style="display:none;">
-        <img src="/imgs/circle_of_hands.webp" style="display:none;">
-        <img src="/imgs/npi_summer.webp" style="display:none;">
+        <img src="/imgs/flower.jpg" style="display:none;">
+        <img src="/imgs/sky.jpg" style="display:none;">
+        <img src="/imgs/sunset.jpg" style="display:none;">
+        <img src="/imgs/stackedrocks.jpg" style="display:none;">
+        <img src="/imgs/bench.jpg" style="display:none;">
+        <img src="/imgs/darktest.jpg" style="display:none;">
+        <img src="/imgs/test.jpg" style="display:none;">
+        <img src="/imgs/npi_summer.jpg" style="display:none;">
         </data>
     </Main>
 

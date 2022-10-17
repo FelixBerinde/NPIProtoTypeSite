@@ -24,7 +24,7 @@ include "header.php";
 
 <div class="columns">
    <div class="column">
-   <img class="scale_img" src="./imgs/recoveryworthit.webp" alt="A field with a bridge in the distance with a quote that says Im not telling you it is going to be easy I'm telling you it's going to be worth it.">
+   <img class="scale_img" src="./imgs/recoveryworthit.jpg" alt="A field with a bridge in the distance with a quote that says Im not telling you it is going to be easy I'm telling you it's going to be worth it.">
    </div>
    <div class="column" style="display: flex; justify-content: center; align-items: center;"> 
     <div class="centertext">
@@ -38,7 +38,7 @@ include "header.php";
       </div>
   </div>
   <div class="column">
-  <img class="scale_img" src="./imgs/reachout.webp" alt="">
+  <img class="scale_img" src="./imgs/worthit.jpg" alt="">
   </div>
 </div>
 

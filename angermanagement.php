@@ -24,7 +24,7 @@ include "header.php";
 <body>
 <div class="columns">
     <div class="column">
-        <img class="scale_img" src="./imgs/goodvibes.webp" alt="Two hands reaching out to one another">
+        <img class="scale_img" src="./imgs/goodvibes.jpg" alt="Two hands reaching out to one another">
     </div>
     <div class="column" style="display: flex; justify-content: center; align-items: center; padding: 10px;"> 
     <div class="centertext">
@@ -35,7 +35,7 @@ include "header.php";
       </div>
     </div>
     <div class="column">
-        <img class="scale_img" src="./imgs/angermanagement.webp" alt="Long exposure image of a man violently thrashing his head around.">
+        <img class="scale_img" src="./imgs/angermanagement.jpg" alt="Long exposure image of a man violently thrashing his head around.">
     </div>
 </div>
 

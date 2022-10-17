@@ -41,7 +41,7 @@ include "header.php";
       <li>Feminine hygiene products.</li>
       <li>Radio or clock radio – must be off by 10PM and cannot be turned on until 8AM.</li>
       <li>10 make-up items (must be stored in a zip lock bag).</li>
-      <li>Prescription medications and Over-the-Counter medications can be dropped off at New Paths sealed and unopened. This is coordinated through their Care Team.</li>
+      <li>Special items to be dropped off need to be coordinated through the therapist.</li>
     </ul>
 
     <h4 class="center-text">Are Visits allowed?</h4>
