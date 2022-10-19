@@ -31,6 +31,9 @@
                             <a href="/daytreatment&intensiveoutpatient.php">Day Treatment & Intensive Outpatient</a>
                         </li>
                         <li>
+                            <a href="/outpatient.php">Outpatient</a>
+                        </li>
+                        <li>
                             <a href="/medicatedassistedtreatment.php">Medication Assisted Treatment</a>
                         </li>
                         <li>
@@ -81,7 +84,7 @@
                             <a target="_blank" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=66bbc086-7453-4032-8a3a-e38cfece5782&ccId=19000101_000001&lang=en_US">Apply On ADP</a>
                         </li>
                         <li>
-                            <a href="#">Recovery Coach Academy</a>
+                            <a href="/recovery-coach-academy.php">Recovery Coach Academy</a>
                         </li>
                         <li>
                             <a href="/donations.php">Donations</a>

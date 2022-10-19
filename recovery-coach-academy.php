@@ -23,8 +23,8 @@
 <body>
   <div class="center-text band">
     <h2 class="band">Recovery Coach Academy</h2>
-    <h3>Coming Soon!</h3>
   </div>
+  <h4 class="center-text" style="margin-bottom: 25px;">Coming soon!</h4>
 
 <?php include "footer.php"; ?>
 

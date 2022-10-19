@@ -30,10 +30,9 @@ include "header.php";
     <div class="centertext">
       <h1>Day Treatment & Intensive Outpatient</h1>
           <p style="text-align: justify; margin: 10px;">
-        Day Treatment and Intensive Outpatient Services provide a measured level of structure which is more intense
-        than traditional outpatient, but less restrictive than residential. IOP provides a combination of group, didactic,
-        individual therapy and recreational therapy in the context of milieu treatment setting while using the home
-        environment as a support to the recovery plan. 
+          Day Treatment and Intensive Outpatient Services provide a measured level of structure which is more intense than traditional outpatient, but less restrictive than residential.
+          Day Treatment and Intensive Outpatient provides a combination of group, didactic, individual therapy and recreational therapy, and peer-led recovery support in the context of
+          milieu treatment setting while using the home environment as a support to the recovery plan. 
           </p>
       </div>
   </div>

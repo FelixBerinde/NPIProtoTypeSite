@@ -29,8 +29,9 @@ include "header.php";
     <div class="column" style="display: flex; justify-content: center; align-items: center;"> 
     <div class="centertext">
         <h1>Drug And Alcohol Testing</h1>
-        <p style="text-align: justify; margin: 10px;">New Paths offers on site drug and alcohol testing as part of the treatment process. 
-        Drug and alcohol testing is a measure of accountability and free of charge to those in program. Fees are assessed for those who are court referred.</p>
+        <p style="text-align: justify; margin: 10px;">New Paths offers on site drug and alcohol testing as part of the treatment process.
+        Drug and alcohol testing is a measure of accountability and free of charge to those in program. Fees are assessed for those who are court referred. 
+        </p>
       </div>
       </div>
     <div class="column">

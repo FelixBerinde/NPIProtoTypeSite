@@ -22,32 +22,24 @@
 include "header.php";
 ?>
 
-<body>
-
 <div class="columns">
    <div class="column">
-      <img class="scale_img" src="./imgs/reach.webp" alt="Two hands reaching out to one another">
+   <img class="scale_img" src="./imgs/reach.webp" alt="Two hands reaching out to one another">
    </div>
-   <div class="column">
+   <div class="column" style="display: flex; justify-content: center; align-items: center;"> 
+    <div class="centertext">
       <h1>Residential</h1>
-        <p style="text-align: justify; margin: 10px;">
-        A 24 hour, seven day per week, controlled, supervised environment in which persons served reside and receive intensive treatment from specially trained counseling staff. 
-        The goal of this program is to interrupt the client's harmful involvement with alcohol or other drugs, and begin to establish a recovery lifestyle. 
-        Residential treatment consists of designated medical and clinical staff members that provide a planned regime of professionally directed assessment, treatment, and rehabilitation services. 
-        This service functions under a set of policies and procedures and is provided within a permanent facility that is licensed for residential care. 
-        Treatment services include a range of therapeutic interventions, modalities, and approaches within a single therapeutic environment. 
-        Persons admitted to this level of care have a primary diagnosis of chemical dependency. 
-        Because the client leaves familiar surroundings where negative behavior patterns are established and reinforced, the likelihood of learning more productive behaviors is enhanced in residential treatment. 
-        Residential services are designed to interrupt harmful involvement with alcohol or other drugs, and to help the person develop a plan to achieve permanent changes in his or her life. 
-        In addition, the services provide appropriate levels of medical monitoring for those clients experiencing the need for sub-acute detoxification. 
-        Appropriate psychiatric services referrals are made as necessary.
-        </p>
+          <p style="text-align: justify; margin: 10px;">
+          Residential treatment consists of individualized services to support and sustain recovery efforts based on medical necessity.
+          The services consist of group therapy, didactic presentations, peer-led recovery support, recreational activities, life skills,
+          and family sessions within a structured living environment. Short and long term residential treatment services consist of a minimum of 30 days and a maximum of 90 days.
+          </p>
+      </div>
   </div>
   <div class="column">
-      <img class="scale_img" src="./imgs/hands.webp" alt="Hands clasped over hands comfortingly">
+  <img class="scale_img" src="./imgs/hands.webp" alt="Hands clasped over hands comfortingly">
   </div>
 </div>
-
 
 <?php
 include "footer.php";
