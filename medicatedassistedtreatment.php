@@ -30,10 +30,10 @@ include "header.php";
     <div class="centertext">
       <h1>Medicated Assisted Treatment</h1>
         <p style="text-align: justify; margin: 10px;">
-        Day Treatment and Intensive Outpatient Services provide a measured level of structure which is more intense
-        than traditional outpatient, but less restrictive than residential. IOP provides a combination of group, didactic,
-        individual therapy and recreational therapy in the context of milieu treatment setting while using the home
-        environment as a support to the recovery plan. 
+        Medically prescribed and clinically supported medication assisted treatment for those diagnosed with an Opioid Use Disorder or Alcohol Use Disorder combined
+        with therapy and peer recovery coach services in an outpatient setting. The goal of MAT is to support abstinence of illicit drug use, reduce harm, and provide 
+        comprehensive and coordinated treatment to meet the individual recovery needs of the person served. Medications utilized include but are not limited to; Oral 
+        Buprenorphine, Injectable Sublocade, Oral Naltrexone, and Injectable Naltrexone.  
         </p>
     </div>
   </div>

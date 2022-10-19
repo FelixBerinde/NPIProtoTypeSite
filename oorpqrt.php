@@ -29,18 +29,19 @@ include "header.php";
    <div class="column" style="display: flex; justify-content: center; align-items: center;"> 
       <div class="centertext">
         <h1>OORP/QRT</h1>
-          <p style="text-align: justify; margin: 10px;">The Opioid Overdose Recovery Program and the Genesee County Quick Response Team provide support to individuals presenting in hospital emergency rooms, 
-          medical clinics, and other community settings who experienced a drug overdose or are under the influence of drugs or alcohol. Peer Recovery Coaches and Care Coordinators assist an individual with 
-          connecting to services addressing all social determinants of health. Referrals can be made by medical personnel, law enforcement, and other community members. The OORP team is available 24 hours a day, 
-          7 days per week.</p>
+          <p style="text-align: justify; margin: 10px;">The Opioid Overdose Recovery Program and the Genesee County Quick Response Team provide support to individuals presenting
+          in hospital emergency rooms, medical clinics, and other community settings who experienced a drug overdose or are under the influence of drugs or alcohol.
+          Peer Recovery Coaches and Care Coordinators assist an individual with connecting to services addressing all social determinants of health. Referrals can be made by
+          medical personnel, law enforcement, and other community members. The OORP team is available 24 hours a day, 7 days per week. 
+          </p>
       </div>
     </div>
   <div class="column">
   <img class="scale_img" src="./imgs/notalone.webp" alt="">
   </div>
 </div>
-<div class="centertext" style="text-align: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/OdX1sHVQup0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="centertext" style="text-align: center; margin-left: auto; margin-right: auto;">
+  <iframe  width= "65%" height = "300px" src="https://www.youtube.com/embed/OdX1sHVQup0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 

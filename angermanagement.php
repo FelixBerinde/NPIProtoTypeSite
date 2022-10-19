@@ -30,8 +30,9 @@ include "header.php";
     <div class="centertext">
         <h1>Anger Management</h1>
         <p style="text-align: justify">Designed to help an individual decrease the heightened emotional and physiological stimuli often associated with anger.
-         Individuals identify stressors and are taught how to control reactions and respond in a socially appropriate manner. Classes are held weekly in a closed group setting. 
-         Fees are assessed at intake. Court referred clients are welcome. </p>
+        Individuals identify stressors and are taught how to control reactions and respond in a socially appropriate manner. Classes are held weekly in a closed group setting.
+        Fees are assessed at intake. Court referred clients are welcome. 
+        </p>
       </div>
     </div>
     <div class="column">
