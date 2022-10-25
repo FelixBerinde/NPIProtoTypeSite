@@ -48,6 +48,15 @@ color: white;
   background: linear-gradient(162deg, rgba(4,239,192,1) 0%, rgba(22,194,218,1) 50%, rgba(43,148,240,1) 100%);
 }
 
+.phoneNum {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#centerPhoneDiv {
+  display: flex;
+}
+
 
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css";
 
@@ -77,7 +86,7 @@ a:focus {
     background: #d9d9d9;
     border: none;
     border-radius: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -204,21 +213,6 @@ a.article:hover {
     transition: all 0.3s;
 }
 
-/* ---------------------------------------------------
-    MEDIAQUERIES
------------------------------------------------------ */
-
-@media (max-width: 768px) {
-    #sidebar {
-        margin-left: -250px;
-    }
-    #sidebar.active {
-        margin-left: 0;
-    }
-    #sidebarCollapse span {
-        display: none;
-    }
-}
 
 /* ----- Main Content ----- */ 
 
@@ -353,7 +347,22 @@ footer > p {
   margin: 5px 40px;
 }
 
-/* ----- Media Screens CSS ----- */
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+  #sidebar {
+      margin-left: -250px;
+  }
+  #sidebar.active {
+      margin-left: 0;
+  }
+  #sidebarCollapse span {
+      display: none;
+  }
+}
 
 @media only screen and (max-width: 1045px) {
   .rolling-numbers {

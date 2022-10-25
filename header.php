@@ -86,13 +86,13 @@
                         <li>
                             <a href="/recovery-coach-academy.php">Recovery Coach Academy</a>
                         </li>
-                        <li>
-                            <a href="/donations.php">Donations</a>
-                        </li>
+                        <hr>
                     </ul>
+                    <li class="<?php if($_SERVER['SCRIPT_NAME']=="/donations.php") echo 'active' ?>">
+                    <a href="/donations.php" >Donations</a>
                 </li>
             </ul>
-            <ul class="phonenumberslist">
+            <ul class="phonenumberslist" style="font-size: 14px; font-weight: 600;">
                 <li><span>Contact Us: <a href="tel:(810)-233-5340">(810)-233-5340</a></span></li>
                 <li><span>QRT Warmline: <a href="tel:(810)-624-1117">(810)-624-1117</a></span></li>
                 <li><span>QRT Textline: <a href="tel:(810)-835-4288">(810)-835-4288</a></span></li>
@@ -110,5 +110,8 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     </div>
-                    <img src="/imgs/Final_Approved_Logo.png" id="NPILogo">
+                    <a id="NPILogo" href="/index.php"><img src="/imgs/Final_Approved_Logo.png" id="NPILogo" alt="New Paths Inc. Behavioral Health and Recovery Center"></a>
             </nav>
+            <div id="centerPhoneDiv">
+                <span class="phoneNum">Contact Us: <a href="tel:(810)-233-5340">(810)-233-5340</a></span>
+            </div>

@@ -23,7 +23,7 @@ include "header.php";
 ?>
 <div class="bgwrapper">
   <ul>
-  <li><a href="https://newpaths.org/wp-content/uploads/2020/10/prea.pdf">2019 Report</a></li>
+  <li><a href="./PREA/prea2019.pdf">2019 Report</a></li>
   <li><a href="./PREA/NPI_PREA_Annual_report_FY20.pdf">2020 Report</a></li>
   <li><a href="./PREA/NPI_PREA_Annual_report_FY21.pdf">2021 Report</a></li>
   </ul>

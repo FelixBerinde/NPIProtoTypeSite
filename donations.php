@@ -53,11 +53,8 @@ include "header.php";
      0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5
       37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z"></path>
     </svg> Support Us!</a>
-
-
-
   </div>
-  <div class="">
+  <div style="text-align: left;">
     <h2 class="center-text">Ways To Donate</h2>
     <p>There are a variety of charitable giving opportunities available to alumni, families and friends.
 All gifts are gratefully accepted and individually acknowledged. Please contact our Finance
@@ -73,7 +70,6 @@ You will retain control of your assets and your heirs may experience tax benefit
       <li>We are funded by the Michigan Department of Health and Human Services (MDHHS), Region 10 PIHP, MSHN PIHP, and the Michigan Department of Corrections.</li>
     </ul>
   </div>
-
 
 <?php
 include "footer.php";

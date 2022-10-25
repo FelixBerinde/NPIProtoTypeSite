@@ -29,10 +29,11 @@ include "header.php";
     <div class="column" style="display: flex; justify-content: center; align-items: center;"> 
     <div class="centertext">
         <h1>Court Referred Services</h1>
-        <p style="text-align: justify; margin: 10px;">New Paths welcomes referrals from various legal avenues. 
-        New Paths understands most crimes are committed while the individual is under the influence of substances or the crime is committed to support one’s addiction. 
-        Clinical Therapists and Care Coordinators assist individuals with exploring alternative ways of living a holistic lifestyle without the use of substances and 
-        engaging in illegal behavior. Referrals can be made directly to New Paths from specialty courts, probation, parole, and the county jail. </p>
+        <p style="text-align: justify; margin: 10px;">New Paths welcomes referrals from various legal avenues. New Paths understands most
+        crimes are committed while the individual is under the influence of substances or the crime is committed to support one’s addiction.
+        Clinical Therapists and Care Coordinators assist individuals with exploring alternative ways of living a holistic lifestyle without
+        the use of substances and engaging in illegal behavior. Referrals can be made directly to New Paths from specialty courts, probation,
+        parole, and the county jail. </p>
       </div>
     </div>
     <div class="column">

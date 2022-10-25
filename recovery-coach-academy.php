@@ -24,7 +24,8 @@
   <div class="center-text band">
     <h2 class="band">Recovery Coach Academy</h2>
   </div>
-  <h4 class="center-text" style="margin-bottom: 25px;">Coming soon!</h4>
+  <h4 class="center-text" style="margin-bottom: 25px;">Look for updates on up and coming Recovery Coach training. 
+  If seeking a position as a Recovery Coach please contact the New Paths Human Resources Department or complete an application online.</h4>
 
 <?php include "footer.php"; ?>
 
