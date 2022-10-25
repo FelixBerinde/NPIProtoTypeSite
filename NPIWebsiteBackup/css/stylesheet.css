@@ -1,0 +1,504 @@
+/* ----- Main HTML -----  */
+
+html {
+  height: 100%;
+  margin: auto;
+}
+
+text{
+  font-size: 60px;
+}
+
+h1 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+
+/* ----- Navagation ----- */ 
+
+.addressbox {
+  padding-top: 20px;
+}
+
+#NPILogo {
+  height: 26vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#sidebarCollapse {
+  margin-bottom: 10%;
+  margin-right: 89%;
+  position: absolute;
+}
+
+li > a {
+color: white;
+}
+
+.phonenumberslist {
+  font-size: 11px;
+  list-style: none;
+}
+
+.btn-info {
+  background: rgb(4,239,192);
+  background: linear-gradient(162deg, rgba(4,239,192,1) 0%, rgba(22,194,218,1) 50%, rgba(43,148,240,1) 100%);
+}
+
+.phoneNum {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#centerPhoneDiv {
+  display: flex;
+}
+
+
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css";
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #d9d9d9;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #768492;
+    color: #fff;
+    transition: all 0.3s;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #768492;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #b6b6b6;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #a3b5bb;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #a3b5bb;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+
+/* ----- Main Content ----- */ 
+
+.rolling-numbers {
+  margin: 5% 30px;
+  background-color: #768492;
+  width: 360px;
+  height: 650px;
+  color: white;
+  display: inline-block;
+  border-radius: 8px;
+  opacity: 85%;
+  box-shadow: 3px 0px 5px black;
+}
+
+.rolling-numbers > section {
+  text-align: center;
+  padding-top: 12.5%;
+  width: 360px;
+}
+
+.rolling-numbers > section > p {
+  font-size: 20px;
+}
+
+.socials-events-media > section {
+  text-align: center;
+}
+
+.socials-events-media > section > p {
+  font-size: 20px;
+}
+
+.socials-events-media {
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(108, 108, 108);
+  opacity: 85%;
+  width: 360px;
+  height: 650px;
+  color: white;
+  float: right;
+  border-radius: 8px;
+  box-shadow: -3px 0px 5px black;
+}
+
+.maintext {
+  width: 100%;
+  height: fit-content;
+  display: block;
+  margin: 5% 30px;
+  padding: 5px;
+  border-radius: 8px;
+  text-align: center;
+  color: black;
+  background-color: rgb(255, 255, 255, .60);
+  font-family: Calibri, sans-serif;
+  font-size: 20px;
+}
+
+.content {
+  margin: 5px;
+  padding: 5px;
+}
+
+.main-top {
+  background-image: url("/imgs/circle_of_hands.webp");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  display: flex;
+  transition: background-image 4s ease-in;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+/* ----- Footer ----- */ 
+
+footer {
+  width: 100%;
+  height: 270px;
+  background-color: white;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0px -2px 3px gray;
+  color: black;
+  border-radius: 10px;
+}
+
+.dropdown-item {
+  margin-top: 25px;
+}
+
+.otherlogos {
+  padding-top: 25px;
+}
+
+.copyright {
+  margin-top: 5px;
+}
+
+footer > p {
+  font-size: 10px;
+}
+
+.maps {
+  margin: 5px 40px;
+  vertical-align: middle;
+}
+
+.rollingnumbers:nth-child(1) {
+  padding: 100px;
+}
+
+#carf-logo {
+  width: 150px;
+  height: 150px;
+  margin: 5px 40px;
+}
+
+#marr-logo {
+  width: 200px;
+  height: 150px;
+  margin: 5px 40px;
+}
+#narr-logo {
+  width: 200px;
+  height: 150px;
+  margin: 5px 40px;
+}
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+  #sidebar {
+      margin-left: -250px;
+  }
+  #sidebar.active {
+      margin-left: 0;
+  }
+  #sidebarCollapse span {
+      display: none;
+  }
+}
+
+@media only screen and (max-width: 1045px) {
+  .rolling-numbers {
+    display: none;
+  }
+  .socials-events-media {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1324px) {
+  footer {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 993px) {
+  footer {
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  footer {
+    height: 900px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .column {
+    min-width: 200px;
+  }
+}
+
+
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-color: #00ccff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #313131;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #244BA7;
+    border-radius: 5px;
+  }
+
+/* ------- Banners for Other pages ------- */
+  .center-text {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .band {
+    background-color: #a3b5bb;
+    padding: 20px 0px;
+    font-size: 40px;
+    font-family: "Arial", Sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .board-names {
+    padding: 0px;
+    align-items: center;
+    width: 500px;
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+  
+  .left-text {
+    text-align: left;
+  }
+  
+  .center-this-div {
+    align-items: center;
+  }
+  
+  /* programs */
+  
+  .programs-btn:hover{
+    background-color: white;
+    color: blue;
+    border: none;
+  }
+  
+  .programs-btn:focus{
+    background-color: white;
+    color: blue;
+    border: none;
+  }
+  
+  .programs-btn {
+    background-color: white;
+    color: blue;
+    border: none;
+  }
+  
+  .programs-div {
+    padding: 0px 300px;
+    display: grid;
+  }
+  
+  /* volunteer-support */
+  
+  .right-text {
+    text-align: right;
+  }
+  
+  .inline {
+    display: inline-block;
+  }
+
+  .bgwrapper {
+    background-color:rgba(108, 108, 108, 0.60);
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    min-width: 400px;
+    max-width: 500px;
+  }
