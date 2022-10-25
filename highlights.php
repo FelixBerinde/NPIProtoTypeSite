@@ -44,10 +44,25 @@ include "header.php";
       <a href="https://nbc25news.com/news/local/community-toolkit-launched-to-help-combat-opioid-crisis" target="_blank">
       <img src="/imgs/dechighlight19.jpg" alt="Link to an article regarding our community toolkits that are available." width="auto" height="150vh"></a>
     </div>
+
+    <div class="card">
+    <text class="title">Joe Murphy's Story</text>
+    <video width="auto" height="150vh" controls>
+    <source src="/videos/joevid.mp4" type="video/mp4" alt="Joe Murphey a recovery coach talks about his struggles with addiction.">
+    Sorry something went wrong.
+    </video> 
+    </div>
+    <div class="card">
+    <text class="title">Jen's Story</text>
+    <video width="auto" height="150vh" controls>
+    <source src="/videos/jenvid.mp4" type="video/mp4" alt="Jen talks about her struggles with addiction.">
+    Sorry something went wrong.
+    </video> 
+    </div>
     <div class="card">
       <text class="title">Hearsay (E-newsletter)</text>
-      <a href="https://newpaths.org/wp-content/uploads/2019/12/Hearsay-October-2018.pdf" target="_blank">
-      <img src="/imgs/hearsay2018.jpg" alt="Link to 2018 Hearsay E-Newsletter." width="auto" height="80vh"></a>
+      <a href="/imgs\Hearsay2018.pdf" target="_blank">
+      <img src="/imgs/hearsay2018.jpg" alt="Link to 2018 Hearsay E-Newsletter." width="auto" height="90vh"></a>
     </div>
   </div>
 

@@ -32,7 +32,7 @@ include "header.php";
         <p style="text-align: justify">The Sobering Facility provides a safe environment designed to meet the needs of intoxicated individuals for up to 23 hours. 
         Walk-ins, hospital, law enforcement and community referrals are accepted 24/7. If the client wishes to enter treatment, staff will coordinate a screening 
         with the Access Department and determine an appropriate level of care based on medical necessity. The Sober Facility serves adult men and women age 18 and 
-        older with a substance use disorder. </p>
+        older with a substance use disorder.</p>
       </div>
     </div>
     <div class="column">
