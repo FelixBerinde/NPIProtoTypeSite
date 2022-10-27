@@ -40,9 +40,7 @@ include "header.php";
   <img class="scale_img" src="./imgs/notalone.webp" alt="">
   </div>
 </div>
-<div class="centertext" style="text-align: center; margin-left: auto; margin-right: auto;">
-  <iframe  width= "65%" height = "300px" src="https://www.youtube.com/embed/OdX1sHVQup0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
 
 
 <?php

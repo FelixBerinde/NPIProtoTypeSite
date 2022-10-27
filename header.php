@@ -90,7 +90,10 @@
                     </ul>
                     <li class="<?php if($_SERVER['SCRIPT_NAME']=="/donations.php") echo 'active' ?>">
                     <a href="/donations.php" >Donations</a>
-                </li>
+                    </li>
+                    <li class="<?php if($_SERVER['SCRIPT_NAME']=="/narcan.php") echo 'active' ?>">
+                    <a href="/narcan.php" >Naloxone (Narcan) Information</a>
+                    </li>
             </ul>
             <ul class="phonenumberslist" style="font-size: 14px; font-weight: 600;">
                 <li><span>Contact Us: <a href="tel:(810)-233-5340">(810)-233-5340</a></span></li>

@@ -25,7 +25,7 @@
     <h2 class="band">Recovery Coach Academy</h2>
   </div>
   <h4 class="center-text" style="margin-bottom: 25px;">Look for updates on up and coming Recovery Coach training. 
-  If seeking a position as a Recovery Coach please contact the New Paths Human Resources Department or complete an application online.</h4>
+  If seeking a position as a Recovery Coach please contact Julie Giza, jgiza@newpaths.org or 810-233-5340 extension 152 for the New Paths Human Resources Department or complete an application online.</h4>
 
 <?php include "footer.php"; ?>
 

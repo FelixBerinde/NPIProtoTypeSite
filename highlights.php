@@ -60,6 +60,10 @@ include "header.php";
     </video> 
     </div>
     <div class="card">
+      <text class="title">Ascension Genesys Hospital Covers Newpaths</text>
+      <iframe width="auto" height="125vh" src="https://www.youtube.com/embed/QHltQFYpML4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="card">
       <text class="title">Hearsay (E-newsletter)</text>
       <a href="/imgs\Hearsay2018.pdf" target="_blank">
       <img src="/imgs/hearsay2018.jpg" alt="Link to 2018 Hearsay E-Newsletter." width="auto" height="90vh"></a>
