@@ -25,7 +25,6 @@ include "header.php";
 <body>
 
 
-
 <main class="main-area">
         <div class="centered">
             <section class="cards"> 
@@ -84,7 +83,7 @@ include "header.php";
                             <img src="./imgs/Keener22.webp" alt="Demetrius Keener - Assistant Clinical Support Specialist">
                         </picture>
                         <div class="card-content">
-                            <h3>Assistant Clinical Support Specialist</h3>
+                            <h3>SAT and Safety Supervisor</h3>
                             <p>Demetrius Keener</p>
                         </div><!-- .card-content -->
                   </article><!-- .card -->
@@ -121,21 +120,11 @@ include "header.php";
 
                   <article class="card">
                         <picture class="thumbnail">
-                            <img src="./imgs/Beltz22.webp" alt="Justine Beltz - Admissions Supervisor">
-                        </picture>
-                        <div class="card-content">
-                            <h3>Admissions Supervisor</h3>
-                            <p>Justine Beltz</p>
-                        </div><!-- .card-content -->
-                  </article><!-- .card -->
-
-                  <article class="card">
-                        <picture class="thumbnail">
                             <img src="./imgs/Dice22.webp" alt="Kym Dice - Billing & Admissions Manager">
                         </picture>
                         <div class="card-content">
                             <h3>Billing & Admissions Manager</h3>
-                            <p>Kym Dice</p>
+                            <p>Kym Dice, MBA</p>
                         </div><!-- .card-content -->
                   </article><!-- .card -->
 
@@ -151,9 +140,6 @@ include "header.php";
             </section><!-- .cards -->
         </div><!-- .centered -->        
 </main>
-
-
-
 
 <?php
 include "footer.php";

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head lang="en">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="New Paths Inc." content="Our Purpose
+    <meta name="keywords" content="Recovery, Health, Rehab, Rehabilitation">
+    <meta name="description" content="Our Purpose
     New Paths, Inc. provides comprehensive substance use disorder treatment for drug and alcohol disorders. Offering multiple levels of rehabilitation, NPI provides an effective level of treatment programming to meet specific clinical needs. Individuals are screened and referred through Region 10, have current Medicaid insurance or are eligible through Block Grant funding. Individuals also have the ability to self-pay for treatment services.
     Our Mission
     Our mission is one of providing individuals an opportunity to change their lives. We are committed to utilizing innovative, evidence-based pathways to assist individuals in achieving and sustaining a healthy quality of life.
