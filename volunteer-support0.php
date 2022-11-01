@@ -28,7 +28,7 @@ include "header.php";
   </div>
   <div class="center-text">
     <h2>Volunteering & Internships</h2>
-      <p>Please contact Julie Giza, <a href="mailto:jgiza@newpaths.org">jgiza@newpaths.org</a> or <a href="tel:810-233-5340">810-233-5340 extension 152</a>, if you are interested in volunteering or are looking for an internship with New Paths, Inc.</p>
+      <p>Please contact Julie Giza, <a href="tel:810-233-5340">810-233-5340 extension 152</a>, if you are interested in volunteering or are looking for an internship with New Paths, Inc.</p>
   </div>
 
 <?php
