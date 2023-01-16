@@ -94,10 +94,13 @@
                     <li class="<?php if($_SERVER['SCRIPT_NAME']=="/narcan.php") echo 'active' ?>">
                     <a href="/narcan.php" aria-label="Naloxone (Narcan) Information">Naloxone (Narcan) Information</a>
                     </li>
+                    <li>
+                    <a href="https://sites.google.com/a/newpaths.org/startup/home" target="_blank" aria-label="Employee Portal">Employee Portal</a>   
+                    </li>
             </ul>
             <ul class="phonenumberslist" style="font-size: 14px; font-weight: 600;">
                 <li><span>Contact Us: <a aria-label="Contact Us Phone Number" href="tel:(810)-233-5340">(810)-233-5340</a></span></li>
-                <li><span>QRT Warmline: <a aria-label="QRT Warmline Phone Number" href="tel:(810)-624-1117">(810)-624-1117</a></span></li>
+                <li><span>QRT Warmline: <a aria-label="QRT Warmline Phone Number" href="tel:(810)-624-1177">(810)-624-1177</a></span></li>
                 <li><span>QRT Textline: <a aria-label="QRT Textline Phone Number" href="tel:(810)-835-4288">(810)-835-4288</a></span></li>
                 <li><span>Suicide Hotline: <a aria-label="Suicide Hotline Phone Number" href="https://988lifeline.org/" target="_blank">https://988lifeline.org/</a></span></li>
             </ul>
