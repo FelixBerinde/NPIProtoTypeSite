@@ -30,6 +30,10 @@ include "header.php";
 
   <div class="cards">
     <div class="card">
+      <text class="title">2022 Overdose Awareness Day!</text>
+      <iframe width="auto" height="125vh" src="https://www.youtube.com/embed/Ib0HtB6j2Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    <div class="card">
       <text class="title">Courts Offer Flint man a second chance.</text>
       <a href="https://www.mlive.com/news/flint/2022/09/mental-health-court-graduation-offers-flint-man-second-chance.html" target="_blank">
       <img src="/imgs/septhighlight.jpg" alt="Link to an article regarding one of our graduated clients" width="auto" height="150vh"></a>
