@@ -29,7 +29,7 @@ include "header.php";
   </div>
   <div class="cards">
   <div class="card">
-    <text class="title">NPI Obtains Grant Over 1 Million Dollars (All rights own by ABC12)</text>
+    <text class="title">NPI Obtains Grant Over 1 Million Dollars (All rights owned by ABC12)</text>
     <video width="auto" height="150vh" controls>
     <source src="/videos/grant_video.mp4" type="video/mp4" alt="NPI Granted 1 Million Dollar Loan.">
     Sorry something went wrong.
@@ -37,7 +37,7 @@ include "header.php";
     </div>
     <div class="card">
       <text class="title">New Federal Funding to Improve Local Substance Use Disorder Treatment Center.</text>
-      <a href="https://www.mlive.com/news/flint/2022/09/mental-health-court-graduation-offers-flint-man-second-chance.html" target="_blank">
+      <a href="https://theflintcouriernews.com/kildee-secures-new-federal-funding-to-improve-new-paths-inc-substance-use-disorder-treatment-center-in-flint/" target="_blank">
       <img src="/imgs/flint_courier.webp" alt="Link to an article regarding new federal funding." width="auto" height="150vh"></a>
     </div>
     <div class="card">
