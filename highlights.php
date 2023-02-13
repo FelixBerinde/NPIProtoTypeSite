@@ -29,6 +29,11 @@ include "header.php";
   </div>
   <div class="cards">
   <div class="card">
+      <text class="title">Free Narcan Vending Machine in Downtown Flint MTA Center!</text>
+      <a href="https://linkprotect.cudasvc.com/url?a=https%3a%2f%2fwww.abc12.com%2fnews%2fhealth%2ffree-narcan-vending-machine-placed-in-downtown-flint-mta-center%2farticle_2374ab80-a8c7-11ed-a8df-1f7d12b932d9.html&c=E,1,4fSgpsgPrmoifQ0n-73RGOnbjsZPrtAd4sLqDh6MBAx_urf2sO2XP90xJ9O2oWAPpzIR5ykX0C9Z5hVqObaK_JqKQN93YPqeFggnZ_eav07lERLGN1idbQ,,&typo=1" target="_blank">
+      <img src="/imgs/narcan_vending.webp" alt="Link to an article regarding about a narcan vending machine in downtown flint MTA center." width="auto" height="150vh"></a>
+    </div>
+  <div class="card">
     <text class="title">NPI Obtains Grant Over 1 Million Dollars (All rights owned by ABC12)</text>
     <video width="auto" height="150vh" controls>
     <source src="/videos/grant_video.mp4" type="video/mp4" alt="NPI Granted 1 Million Dollar Loan.">
