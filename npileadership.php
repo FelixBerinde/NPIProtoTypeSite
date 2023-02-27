@@ -139,6 +139,47 @@ include "header.php";
                   </article><!-- .card -->
             </section><!-- .cards -->
         </div><!-- .centered -->        
+        <div class = "tableContainer">
+            <table>
+                <caption>Board Members</caption>
+                <thead>
+                </thead>
+                <tbody>
+                <tr>
+                    <td data-label="President">Kristina Marshall</td>
+                    <td data-label="Position">President</td>
+                </tr>
+                <tr>
+                    <td data-label="Vice President">Susan Smith</td>
+                    <td data-label="Position">Vice President</td>
+                </tr>
+                <tr>
+                    <td data-label="Treasurer">James Carlson</td>
+                    <td data-label="Position">Treasurer</td>
+                </tr>
+                <tr>
+                    <td data-label="Secretary">Jamie-Lee Venable</td>
+                    <td data-label="Position">Secretary</td>
+                </tr>
+                <tr>
+                    <td data-label="Member at Large">Lennetta Bradely-Coney</td>
+                    <td data-label="Position">Member at Large</td>
+                </tr>
+                <tr>
+                    <td data-label="Member at Large">Randall Petrides</td>
+                    <td data-label="Position">Member at Large</td>
+                </tr>
+                <tr>
+                    <td data-label="Member at Large">Jeff Piechowski</td>
+                    <td data-label="Position">Member at Large</td>
+                </tr>
+                <tr>
+                    <td data-label="Member at Large">Haley Slade</td>
+                    <td data-label="Position">Member at Large</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 </main>
 
 <?php
